@@ -99,6 +99,10 @@ hr #ourteam {
         padding-right: 20px;
     }
 }
+/* Dynamic content */
+#dynamic-content {
+    margin-top: -20px;
+}
 /* Footer */
 
 #wrapper {
