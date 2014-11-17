@@ -53,7 +53,6 @@ body {
     height: 600px;
     background-color: #d3d3d3;
 }
-
 .carousel-inner {
     background-size: cover;
     background-position: 50% 50%;
@@ -64,7 +63,6 @@ body {
     bottom: 20px;
     height: 600px;
 }
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -101,7 +99,7 @@ body {
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
-        margin-top: 20px;
+        margin-top: 0;
     }
     .navbar-wrapper .container {
         padding-right: 15px;
