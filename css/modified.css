@@ -1,0 +1,116 @@
+<!-- Author:Bunchhieng Soth,
+bsoth@cs.uml.edu
+
+Created on:11/01/2014 Main page for sosuml.org -->@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Brand logo */
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+[alt="brand"] {
+    margin: -15px;
+    margin-left: 20px;
+    z-index: 20;
+    height: 90px;
+    width: 250px;
+}
+/* Social logo on navbar */
+
+.social-logo {
+    display: inline;
+    width: 35px;
+    height: 35px;
+}
+#social-logo {
+    display: inline;
+    padding: 0;
+}
+#social-logo > li > a >[alt="link"] {
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+}
+#social-logo > li > a {
+    padding: 0;
+    margin-left: 13px;
+    margin-right: 0;
+    margin-top: 10px;
+}
+/* Modify navbar fonts */
+
+.container > nav {
+    height: 65px;
+}
+#navbar {
+    position: absolute;
+    padding-left: 290px;
+    text-align: center;
+    font-size: 16px;
+}
+/* Twitter timeline */
+
+.twitter-timeline {
+    height: 420px;
+}
+/*Sponsor logo */
+
+[alt="Generic placeholder image"] {
+    padding: 20px;
+    height: 150px;
+    width: 240px;
+}
+/* Calendar in calendar.html */
+
+.content {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+iframe {
+    margin: 0 auto;
+}
+/* Our team images */
+
+.img-circle {
+    width: 250px;
+    height: 250px;
+}
+hr #ourteam {
+    width: 50px;
+    border: 1px solid;
+}
+.position {
+    color: #0FB7EC;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* Footer */
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    margin-top: 0;
+}
+#footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 180px;
+}
