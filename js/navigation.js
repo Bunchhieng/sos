@@ -48,7 +48,7 @@
             }
         });*/
 
-        // HACKED CURRAN CODE
+        /* Change each page title when click on difference pages */
         var pageID = ['home', 'calendar', 'getinvolve', 'donate', 'eligibility', 'ourteam', 'resource'];
         for (var i = 0; i < pageID.length; i++) {
             if (pageID[i] == fragmentId) {

@@ -15,5 +15,8 @@ Dan
 Bun
 - Fix the footer
 
+Week 3 11/19/14
+
+
 Created on: 11/05/2014  
 [sosuml web page](http://www.sosuml.org)

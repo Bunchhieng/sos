@@ -1,8 +1,14 @@
-<!-- Author:Bunchhieng Soth,
-bsoth@cs.uml.edu
+<!-- 
+    Author:Bunchhieng Soth, bsoth@cs.uml.edu
 
-Created on:11/01/2014 Main page for sosuml.org -->@import url(http://fonts.googleapis.com/css?family=Open+Sans);
- html,
+    Created on:11/01/2014 Main page for sosuml.org 
+
+-->
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html,
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -17,20 +23,18 @@ body {
 [alt="brand"] {
     margin: -15px;
     margin-left: 20px;
-    z-index: 20;
     height: 90px;
     width: 250px;
 }
 /* Social logo on navbar */
 
 .social-logo {
-    display: inline;
     width: 35px;
     height: 35px;
+    margin-right: 10px;
 }
 #social-logo {
-    display: inline;
-    padding: 0;
+    padding-right: 50px;
 }
 #social-logo > li > a >[alt="link"] {
     height: 30px;
@@ -38,9 +42,8 @@ body {
     margin-top: 2px;
 }
 #social-logo > li > a {
+    float: right;
     padding: 0;
-    margin-left: 13px;
-    margin-right: 0;
     margin-top: 10px;
 }
 /* Modify navbar fonts */
@@ -49,8 +52,8 @@ body {
     height: 65px;
 }
 #navbar {
-    position: absolute;
-    padding-left: 290px;
+    position: fixed;
+    padding-left: 370px;
     text-align: center;
     font-size: 16px;
 }
@@ -70,7 +73,7 @@ body {
 
 .content {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 90px;
     padding-bottom: 40px;
 }
 iframe {
@@ -100,6 +103,7 @@ hr #ourteam {
     }
 }
 /* Dynamic content */
+
 #dynamic-content {
     margin-top: -20px;
 }
