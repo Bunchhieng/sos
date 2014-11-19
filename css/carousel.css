@@ -38,12 +38,13 @@ body {
 /* Carousel base class */
 
 .carousel {
-    height: 600px;
+    height: 700px;
     margin-bottom: 40px;
 }
 /* Since positioning the image, we need to help out the caption */
 
-.carousel-caption {
+.caption {
+    text-align: center;
     color: orange;
 }
 /* Declare heights because of positioning of img element */
@@ -59,7 +60,6 @@ body {
 .carousel-inner > .item > img {
     width: auto;
     margin: 0 auto;
-    bottom: 20px;
     height: 600px;
 }
 /* MARKETING CONTENT
