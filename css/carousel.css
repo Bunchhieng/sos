@@ -19,6 +19,13 @@ body {
     left: 0;
     z-index: 20;
 }
+/*  Make the height of the header links match
+	the height of the navbar*/
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d;
+    height: 60px;
+}
 /* Flip around the padding for proper display in narrow viewports */
 
 .navbar-wrapper > .container {
@@ -36,6 +43,7 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
+
 .carousel-caption {
     color: white;
     text-shadow: 2px 2px black;
