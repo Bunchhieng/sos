@@ -2,7 +2,7 @@
 <div class="content" style="text-align:left">
     <!-- content -->
     <div class="container">
-        <h2 class="featurette-heading">Get Involved With US</h2>
+        <h2 class="featurette-heading">Get Involved With SOS!</h2>
         <div class="container" style="width:600px">
             <hr class="featurette-divider">
             <ul style="font-size:20px">
@@ -36,7 +36,7 @@
                 
                 submit mailto: sosatuml@gmail.com
                 -->
-        <h1 class="panel-heading" style="text-align:center">Let Us Know</h1>
+        <h1 class="panel-heading" style="text-align:center">Let Us Know Your Area of Interest</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

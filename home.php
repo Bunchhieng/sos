@@ -96,7 +96,7 @@
             </div>
             <!-- /.col-lg-3 -->
             <div class="col-lg-4">
-                <a href="http://www.uml.edu/student-services/reslife/University-Dining.aspx" target="_blank">
+                <a href="http://umasslowell.campusdish.com/" target="_blank">
                     <img src="resources/UML%20University%20Dining.jpg" alt="Generic placeholder image">
                 </a>
             </div>
@@ -117,7 +117,7 @@
             </div>
             <!-- /.col-lg-3 -->
             <div class="col-lg-3">
-                <a href="">
+                <a href="http://eforall.org/" target="_blank">
                     <img src="resources/EforAll_Accelerator_2014sum.png" alt="Generic placeholder image">
                 </a>
             </div>

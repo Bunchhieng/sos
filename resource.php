@@ -22,9 +22,13 @@
             </p>
             <p>Alliance of College Food Pantries: <a href="http://www.cufba.org/">College and University Food Bank Alliance</a>
             </p>
-            <p>Healthy Eating: <a href="http://www.choosemyplate.gov/healthy-eating-tips/ten-tips.htm">Choose My Plate</a>
+            <p>Healthy Eating: <a href="http://www.choosemyplate.gov/food-groups/">Choose My Plate</a>
             </p>
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
 

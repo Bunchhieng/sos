@@ -25,7 +25,7 @@
         <div class="col-lg-6">
             <div class="col-lg-3">
                 <div style="text-align: center;">
-                    <img alt="" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=dollar&amp;goal=2500&amp;current=2018&amp;color=blue&amp;size=medium" style="border-width: 0px; border-style: solid;">
+                    <img alt="" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?goal=2500&amp;current=2018&amp;color=blue&amp;size=medium" style="border-width: 0px; border-style: solid;">
                 </div>
             </div>
             <h1>Meal Scholarships</h1>
@@ -44,20 +44,20 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form class="form-horizontal" method="post">
+                    <form class="form-horizontal" method="post" action="mailto:email@example.com" enctype="text/plain">
                         <fieldset>
                             <legend class="text-center header">Donate A Meal</legend>
 
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                    <input id="fname" name="fname" type="text" placeholder="First Name" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                    <input id="lname" name="lname" type="text" placeholder="Last Name" class="form-control">
                                 </div>
                             </div>
 
@@ -90,6 +90,58 @@
                     </form>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="container">
+        <!-- First column sponsor -->
+        <div>
+            <h2 class="featurette-heading">Our Sponsors</h2>
+            <br>
+            <div class="col-lg-4">
+                <a href="http://www.pgifoods.com" target="_blank">
+                    <img src="resources/PGI%20copy.jpg" alt="Generic placeholder image" width="500px" height="150px">
+                </a>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-4">
+                <a href="http://chowderfactory.com" target="_blank">
+                    <img src="resources/chowderfactory_logo.png" alt="Generic placeholder image">
+                </a>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-4">
+                <a href="http://umasslowell.campusdish.com/" target="_blank">
+                    <img src="resources/UML%20University%20Dining.jpg" alt="Generic placeholder image">
+                </a>
+            </div>
+        </div>
+        <!-- End first column sponsor -->
+
+        <div>
+            <div class="col-lg-6">
+                <a href="http://www.uml.edu/Innovation-Entrepreneurship/DifferenceMaker/default.aspx" target="_blank">
+                    <img src="img/DifferenceMaker_TM_with_uml_logo%20(1).jpg.jpeg" alt="" width="500px" height="150px">
+                </a>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-3">
+                <a href="https://www.enterprisebanking.com/" target="_blank">
+                    <img src="resources/EB%20horizontal%20CS_cmykFDIC.jpg" alt="Generic placeholder image">
+                </a>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-3">
+                <a href="http://eforall.org/" target="_blank">
+                    <img src="resources/EforAll_Accelerator_2014sum.png" alt="Generic placeholder image">
+                </a>
+            </div>
+            <!-- click go to the form -->
+        </div>
+        <br>
+        <div class="container" style="text-align:center">
+            <a href="#form" class="btn btn-lg btn-primary" style="background:orange"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;<span style="color:black">Become A Sponsor</span></a>
         </div>
     </div>
 </div>
