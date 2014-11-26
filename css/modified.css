@@ -1,14 +1,10 @@
-<!-- 
-    Author:Bunchhieng Soth, bsoth@cs.uml.edu
+<!-- Author:Bunchhieng Soth,
+bsoth@cs.uml.edu
 
-    Created on:11/01/2014 Main page for sosuml.org 
-
--->
-
+Created on:11/01/2014 Main page for sosuml.org -->
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-
-html,
+ html,
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -54,8 +50,8 @@ body {
 #navbar {
     position: fixed;
     font-size: 18px;
+    display: inline;
 }
-
 /* Twitter timeline */
 
 .twitter-timeline {
@@ -120,4 +116,15 @@ hr #ourteam {
     background-color: #EEEEEE;
     width: 100%;
     height: 200px;
+}
+/* Forms */
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }

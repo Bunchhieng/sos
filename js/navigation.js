@@ -24,7 +24,7 @@
 
         } else {
             // If the page has not been fetched before, fetch it.
-            $.get(fragmentId + ".html", function (content) {
+            $.get(fragmentId + ".php" , function (content) {
 
                 // Store the fetched content in the cache.
                 partialsCache[fragmentId] = content;
