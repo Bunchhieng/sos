@@ -1,7 +1,9 @@
-<!-- Author:Bunchhieng Soth,
-bsoth@cs.uml.edu
+<!--
+    Author:Bunchhieng Soth,
+    bsoth@cs.uml.edu
 
-Created on:11/01/2014 Main page for sosuml.org -->
+    Created on:11/01/2014 Main page for sosuml.org
+-->
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
  html,
@@ -45,6 +47,7 @@ body {
 /* Modify navbar fonts */
 
 .container > nav {
+    text-align: center;
     height: 65px;
 }
 #navbar {
@@ -127,4 +130,15 @@ hr #ourteam {
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
+}
+/* Error message */
+.errorForm {
+  text-align: center;
+  color: #FF0000;
+}
+
+.thankYou {
+  font-size: 20px;
+  color: blue;
+  text-align: center;
 }

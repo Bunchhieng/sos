@@ -5,10 +5,9 @@
         <hr class="featurette-divider">
         <div class="col-lg-6">
             <div class="col-lg-3">
-                <div style="text-align: center;">
-                    <!-- Modify meter with no dollar sign. $ -> meals -->
-                    <img alt="" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=meal&amp;goal=1000&amp;current=530&amp;color=blue&amp;size=medium" style="border-width: 0px; border-style: solid;">
-                </div>
+              <div style="text-align:center;">
+                <img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=none&goal=1000&current=530&color=blue&size=medium">
+              </div>
             </div>
             <h1>Guest Meals</h1>
             <div class="col-lg-9">
@@ -40,50 +39,62 @@
             </div>
         </div>
     </div>
-    <div class="container" id="donate_form">
+    <hr class="featurette-divider">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form class="form-horizontal" method="post" action="mailto:email@example.com" enctype="text/plain">
+                    <form class="form-horizontal" method="post" action="index.php" id="donate_form">
                         <fieldset>
                             <legend class="text-center header">Donate A Meal</legend>
 
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <input id="fname" name="fname" type="text" placeholder="First Name" class="form-control">
+                                    <!-- donate_fname -->
+                                    <input name="fname" type="text" placeholder="First Name" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <input id="lname" name="lname" type="text" placeholder="Last Name" class="form-control">
+                                    <!-- donate_lname -->
+                                    <input name="lname" type="text" placeholder="Last Name" class="form-control">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                    <!-- donate_email -->
+                                    <input name="email" type="text" placeholder="Email Address" class="form-control">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-keyboard-o bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <input id="studentID" name="studentID" type="text" placeholder="Student ID" class="form-control">
+                                    <!-- donate_ID -->
+                                    <input name="id" type="text" placeholder="Student ID" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                                 <div class="col-md-8">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you as soon as possible." rows="7"></textarea>
+                                    <!-- donate_mes -->
+                                    <textarea class="form-control" name="message" placeholder="Enter your massage for us here. We will get back to you as soon as possible." rows="7"></textarea>
                                 </div>
                             </div>
-
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <!-- donate_email -->
+                                    <input name="valid" type="number" placeholder="*What is 2 + 2?" class="form-control">
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    <input type="submit" class="btn btn-primary btn-lg" value="Submit" name="donate_submit">
                                 </div>
                             </div>
                         </fieldset>
@@ -145,5 +156,3 @@
         </div>
     </div>
 </div>
-
-

@@ -38,14 +38,14 @@
             <h3>Bunchhieng Soth</h3>
             <hr id="ourteam">
             <h4 class="position">Web Developer Intern</h4>
-            <p>Bunchhieng Soth, also knonw as, Bun is a junior majoring in Computer Science. He is a web developer intern. He contributes to redesign the SOS web page. His hobby are exploring new technology and coding.</p>
+            <p>Bunchhieng Soth, also known as Bun, is a junior majoring in Computer Science. He is a web developer intern and has contributed to the redesign of the SOS web page. His hobbies include exploring new technology and coding.</p>
         </div>
         <div class="col-lg-4">
             <img src="img/Dan.jpeg" alt="Generic placeholder image" class="img-circle">
             <h3>Daniel G. MacMillan</h3>
             <hr id="ourteam">
             <h4 class="position">Web Developer Intern</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi a eligendi laboriosam expedita, labore nobis dignissimos est nemo dolorem aliquid voluptas ab sequi consectetur magnam voluptates debitis harum possimus unde!</p>
+            <p>Daniel MacMillan is a freshman at UMass Lowell, where he is currently studying for a bachelors degree in Computer Science. He enjoys cooking, watching movies, forcing technology to bow to his whim, and playing Team Fortress 2.</p>
         </div>
     </div>
 </div>
